@@ -9,13 +9,14 @@ a=b;
 b=c;
 printf("after swapping a=%d b=%d",a,b);
 }
-// same program using scanf
+// swapping of 2 number without using 3rd variable.
 #include<stdio.h>
 int main()
 {
-int a,b,c;
-printf("enter the value of A and B\b");
-scanf("%d%d",&a,&b);
-c=a+b;
-printf("result=%d",c);
+int a=10,b=20;
+printf("before swapping a=%d b=%d",a,b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("after swapping a=%d b=%d",a,b);
 }
