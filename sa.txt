@@ -1,10 +1,13 @@
+//swapping of 2 number using 3rd variable.
 #include<stdio.h>
 int main()
 {
 int a=10,b=20,c;
-printf("a=%d b=%d",a,b);
-c=a+b;
-printf("resuly=%d",c);
+printf("before swapping a=%d b=%d",a,b);
+c=a;
+a=b;
+b=c;
+printf("after swapping a=%d b=%d",a,b);
 }
 // same program using scanf
 #include<stdio.h>
